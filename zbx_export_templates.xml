@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.0</version>
-    <date>2016-06-02T06:31:37Z</date>
+    <date>2016-06-02T09:23:10Z</date>
     <groups>
         <group>
             <name>LoadBalancers</name>
@@ -2961,7 +2961,7 @@ This is only supported for the platform where the sensor data is available.</des
                     <name>Interfaces</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-LOCAL-MIB::sysIfName]</snmp_oid>
+                    <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-SYSTEM-MIB::sysIfName]</snmp_oid>
                     <key>sysIfName</key>
                     <delay>60</delay>
                     <status>0</status>
