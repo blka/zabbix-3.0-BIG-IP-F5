@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.0</version>
-    <date>2016-05-23T07:45:12Z</date>
+    <date>2016-06-02T06:31:37Z</date>
     <groups>
         <group>
             <name>LoadBalancers</name>
@@ -74,7 +74,7 @@
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysClientsslStatCurConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -117,7 +117,7 @@
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysClientsslStatTotCompatConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -160,7 +160,7 @@
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysClientsslStatTotNativeConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -307,7 +307,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuIdle5s.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -350,7 +350,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuIowait5s.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -393,7 +393,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuIrq5s.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -436,7 +436,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuNice5s.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -479,7 +479,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuSoftirq5s.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -522,7 +522,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuStolen5s.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -565,7 +565,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuSystem5s.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -608,7 +608,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuUsageRatio1m.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -651,7 +651,7 @@ partialSync - some but not all devices successfully received the last sync.</des
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysGlobalHostCpuUser5s.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -738,7 +738,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysHostMemoryUsed.0]</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -997,7 +997,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysServersslStatCurConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1040,7 +1040,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysServersslStatTotCompatConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1083,7 +1083,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysServersslStatTotNativeConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1126,7 +1126,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatClientBytesIn.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1169,7 +1169,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatClientBytesOut.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1212,7 +1212,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatClientCurConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1255,7 +1255,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatClientPktsIn.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1298,7 +1298,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatClientPktsOut.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1341,7 +1341,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatClientTotConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1384,7 +1384,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatHttpRequests.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1470,7 +1470,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatMemoryUsed.0]</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1513,7 +1513,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatServerBytesIn.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1556,7 +1556,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatServerBytesOut.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1599,7 +1599,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatServerCurConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1642,7 +1642,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysStatServerTotConns.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1728,7 +1728,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysSystemUptime.0]</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1771,7 +1771,7 @@ This is for a single host system. For multiple host system, please refer sysMult
                     <key>snmp.agent[F5-BIGIP-SYSTEM-MIB::sysTcpStatAccepts.0]</key>
                     <delay>60</delay>
                     <history>90</history>
-                    <trends>365</trends>
+                    <trends>180</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1893,7 +1893,7 @@ Top-level infrastructure of the F5 enterprise MIB tree.</description>
                             <key>ltmNodeAddrStatCurSessions[{#SNMPVALUE}]</key>
                             <delay>60</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -1937,7 +1937,7 @@ Top-level infrastructure of the F5 enterprise MIB tree.</description>
                             <key>ltmNodeAddrStatServerBytesIn[{#SNMPVALUE}]</key>
                             <delay>300</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -1981,7 +1981,7 @@ Top-level infrastructure of the F5 enterprise MIB tree.</description>
                             <key>ltmNodeAddrStatServerBytesOut[{#SNMPVALUE}]</key>
                             <delay>300</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -2025,7 +2025,7 @@ Top-level infrastructure of the F5 enterprise MIB tree.</description>
                             <key>ltmNodeAddrStatServerCurConns[{#SNMPVALUE}]</key>
                             <delay>60</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -2069,7 +2069,7 @@ Top-level infrastructure of the F5 enterprise MIB tree.</description>
                             <key>ltmNodeAddrStatServerPktsIn[{#SNMPVALUE}]</key>
                             <delay>300</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -2113,7 +2113,7 @@ Top-level infrastructure of the F5 enterprise MIB tree.</description>
                             <key>ltmNodeAddrStatServerPktsOut[{#SNMPVALUE}]</key>
                             <delay>300</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -2306,7 +2306,7 @@ gray - unlicensed.</description>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-LOCAL-MIB::ltmPoolStatusName]</snmp_oid>
                     <key>ltmPoolStatusName</key>
-                    <delay>15</delay>
+                    <delay>60</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -2342,7 +2342,7 @@ gray - unlicensed.</description>
                             <key>ltmPoolStatusAvailState[{#SNMPVALUE}]</key>
                             <delay>60</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -2394,7 +2394,7 @@ gray - unlicensed</description>
                             <key>ltmPoolStatusEnabledState[{#SNMPVALUE}]</key>
                             <delay>900</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -2453,7 +2453,7 @@ gray - unlicensed</description>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-LOCAL-MIB::ltmVsStatusName]</snmp_oid>
                     <key>ltmVsStatusName</key>
-                    <delay>15</delay>
+                    <delay>60</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -2636,7 +2636,7 @@ gray - unlicensed.</description>
                             <key>sysChassisFanSpeed[{#SNMPVALUE}]</key>
                             <delay>300</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -2752,7 +2752,7 @@ This is only supported for the platform where the sensor data is available.</des
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-LOCAL-MIB::ltmVsStatusAvailState]</snmp_oid>
                     <key>sysChassisPowerSupplyIndex</key>
-                    <delay>15</delay>
+                    <delay>3600</delay>
                     <status>1</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -2895,7 +2895,7 @@ It identifies a particular chassis temperature sensor, fan, etc.</description>
                             <key>sysChassisTempTemperature[{#SNMPVALUE}]</key>
                             <delay>60</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -2961,7 +2961,7 @@ This is only supported for the platform where the sensor data is available.</des
                     <name>Interfaces</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>discovery[{#SNMPVALUE},1.3.6.1.4.1.3375.2.1.2.4.3.2.1.2]</snmp_oid>
+                    <snmp_oid>discovery[{#SNMPVALUE},F5-BIGIP-LOCAL-MIB::sysIfName]</snmp_oid>
                     <key>sysIfName</key>
                     <delay>60</delay>
                     <status>0</status>
@@ -2995,11 +2995,11 @@ This is only supported for the platform where the sensor data is available.</des
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>0</multiplier>
-                            <snmp_oid>.1.3.6.1.4.1.3375.2.1.2.4.1.2.1.4.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysInterfaceMediaActiveSpeed.{#SNMPINDEX}</snmp_oid>
                             <key>sysInterfaceMediaActiveSpeed[{#SNMPVALUE}]</key>
                             <delay>3600</delay>
                             <history>1</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -3035,7 +3035,7 @@ This is only supported for the platform where the sensor data is available.</des
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>0</multiplier>
-                            <snmp_oid>.1.3.6.1.4.1.3375.2.1.2.4.1.2.1.1.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysInterfaceName.{#SNMPINDEX}</snmp_oid>
                             <key>sysInterfaceName[{#SNMPVALUE}]</key>
                             <delay>3600</delay>
                             <history>7</history>
@@ -3075,11 +3075,11 @@ This is only supported for the platform where the sensor data is available.</des
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>1</multiplier>
-                            <snmp_oid>.1.3.6.1.4.1.3375.2.1.2.4.5.3.1.6.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysInterfaceStatBytesIn.{#SNMPINDEX}</snmp_oid>
                             <key>sysInterfaceStatBytesIn.[{#SNMPVALUE}]</key>
                             <delay>60</delay>
                             <history>7</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -3115,11 +3115,11 @@ This is only supported for the platform where the sensor data is available.</des
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>1</multiplier>
-                            <snmp_oid>.1.3.6.1.4.1.3375.2.1.2.4.5.3.1.10.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysInterfaceStatBytesOut.{#SNMPINDEX}</snmp_oid>
                             <key>sysInterfaceStatBytesOut[{#SNMPVALUE}]</key>
                             <delay>60</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
@@ -3155,11 +3155,11 @@ This is only supported for the platform where the sensor data is available.</des
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>0</multiplier>
-                            <snmp_oid>.1.3.6.1.4.1.3375.2.1.2.4.1.2.1.17.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysInterfaceStatus.{#SNMPINDEX}</snmp_oid>
                             <key>sysInterfaceStatus[{#SNMPVALUE}]</key>
                             <delay>60</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>180</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
